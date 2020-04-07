@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "calculatorByAngular9"
+    }
+  },
+  "defaultProject": "calculatorByAngular9",
+  "cli": {
+    "analytics": "3b7fe9bd-0f27-4af3-87ed-055eceba2ab8"
+  }
 }
