@@ -25,3 +25,24 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+
+## Command for deploy angular app on github page
+
+ng build --prod --output-path docs --base-href https://rohit3230.github.io/calculatorByAngular9/
+OR
+ng build --prod --base-href “https://rohit3230.github.io/calculatorByAngular9/”
+
+// when docs folder will be generated.
+ngh --dir=docs
+
+
+
+## Source:-
+https://github.com/angular/angular-cli/wiki/stories-github-pages
+
+## Demo
+https://rohit3230.github.io/calculatorByAngular9/
+
+
